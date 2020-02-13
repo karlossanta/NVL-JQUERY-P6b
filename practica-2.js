@@ -34,3 +34,7 @@ elementosEliminados[4].insertBefore(elementosViejos[5]);
 // var elementosNuevos = $("ul:last li")
 // //lo insertamos antes del primer elemento sin eliminar (su posición inicial)
 // $(elementosNuevos[4]).insertBefore(elementosViejos[5]);
+
+//Ahora vamos a crear un nuevo elemento
+var li = $("<li id=\"perejil\" class=\"odd\"><span>Isla de Perejil</span></li>");
+listaNueva.append(li);
